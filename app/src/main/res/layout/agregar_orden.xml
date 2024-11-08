@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".agregar_ordenActivity"
+    android:background="@drawable/fondonegro">
+
+    <EditText
+        android:id="@+id/editTextClientName"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Nombre del cliente" />
+
+    <EditText
+        android:id="@+id/editTextOrderDescription"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="48dp"
+        android:paddingLeft="20dp"
+        android:hint="Descripción de la orden"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/white"
+        android:hint="Cantidad"
+        android:paddingLeft="20dp"
+        android:inputType="number"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:id="@+id/buttonSubmitOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Agregar Orden"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/lodo"/>
+</LinearLayout>
